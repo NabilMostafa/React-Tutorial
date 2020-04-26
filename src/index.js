@@ -2,18 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Code1 from "./Components/code1";
+import Greeting from "./Components/Greeting";
 import * as serviceWorker from './serviceWorker';
-import Footer from "./Components/footer";
+import Footer from "./Components/Footer";
 
-const name ='jojo';
-const t = [2,5,9]
-const s = t.map(t => t*t)
-console.log(s)
 ReactDOM.render(
     <React.StrictMode>
-        {/*<App/>*/}
-        <Code1 name={s}/>
+        <App/>
+        {/*<Greeting />*/}
         <Footer/>
     </React.StrictMode>,
     document.getElementById('root')
