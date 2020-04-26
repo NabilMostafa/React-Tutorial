@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Greeting from "./Components/Greeting";
+import Greeting from "./Components/Greeting/Greeting";
 import * as serviceWorker from './serviceWorker';
 import Footer from "./Components/Footer";
+import Counter from "./Components/Counter/Counter";
 
 ReactDOM.render(
     <React.StrictMode>
-        <App/>
+        {/*<App/>*/}
         {/*<Greeting />*/}
+        <Counter/>
         <Footer/>
     </React.StrictMode>,
     document.getElementById('root')
