@@ -6,12 +6,14 @@ import Greeting from "./Components/Greeting/Greeting";
 import * as serviceWorker from './serviceWorker';
 import Footer from "./Components/Footer";
 import Counter from "./Components/Counter/Counter";
+import Notes from "./Components/Notes";
 
 ReactDOM.render(
     <React.StrictMode>
         {/*<App/>*/}
         {/*<Greeting />*/}
-        <Counter/>
+        {/*<Counter/>*/}
+        <Notes/>
         <Footer/>
     </React.StrictMode>,
     document.getElementById('root')
